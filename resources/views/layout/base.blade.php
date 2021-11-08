@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{asset("css/app.css")}}">
 </head>
 <body>
+    <h1 class="title">Le ultime uscite</h1>
     @yield('pageContent')
 </body>
 </html>

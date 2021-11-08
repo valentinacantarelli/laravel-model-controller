@@ -8,20 +8,31 @@ body{
     background-color: bisque;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.title{
+    text-align: center;
+    padding: 30px;
+}
 .section{
     width:70%;
     margin: 0 auto;
     padding: 40px;
-    margin-top: 80px;
-    background-color: rgb(240, 190, 128);
+    margin-top: 70px;
+    background-color: rgba(241, 161, 147, 0.925);
     border-radius: 5px;
+    text-align: center;
     ul{
         display: flex;
         flex-wrap: wrap;
+        
         li{
             width: calc(100% / 5);
             list-style: none;
-            padding: 20px;
+            padding: 20px 10px;           
+            box-shadow: 2px 2px 2px rgba(114, 95, 46, 0.205);
+            h4{
+                color: rgb(121, 47, 47);
+                padding-top: 9px;
+            }
 
             h6{
                 padding: 15px 0;
