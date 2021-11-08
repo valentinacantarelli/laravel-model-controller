@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.section{
+    width:70%;
+    margin: 0 auto;
+    padding: 40px;
+    margin-top: 80px;
+    background-color: rgb(240, 190, 128);
+    border-radius: 5px;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            width: calc(100% / 5);
+            list-style: none;
+            padding: 20px;
+
+            h6{
+                padding: 15px 0;
+            }
+        }
+    }
+        
+        
+
+        
+    
+}
